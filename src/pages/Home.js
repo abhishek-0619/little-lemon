@@ -1,12 +1,16 @@
 import React from "react";
-import Header from "../components/Header";
-import Main from "../components/Main";
+import HeadeElement from "../components/HeadeElement";
+import HeroSection from "../components/HeroSection";
+import Specials from "../components/Specials";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <>
-      <Header />
-      <Main />
+      <HeadeElement />
+      <HeroSection />
+      <Specials />
+      <Footer />
     </>
   );
 };
